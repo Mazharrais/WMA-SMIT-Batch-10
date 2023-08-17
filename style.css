@@ -170,3 +170,23 @@
     height: 400px;
     color: goldenrod;
 }
+.five-container{
+    background-color: rgb(9, 65, 9);
+    color: white;
+}
+.five1{
+    display: flex;
+    background-color: burlywood;
+}
+.item1{
+    border: 2px solid white;
+    margin: 12px;
+    width: 300px;
+    height: 300px;
+}
+.item2{
+    border: 2px solid white;
+    margin: 12px;
+    width: 300px;
+    height: 300px;
+}
