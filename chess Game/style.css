@@ -1,0 +1,19 @@
+body{
+    background-color: coral;
+}
+
+
+h1{
+ font-size: xxx-large;
+ color: rgb(139, 73, 73);
+ background-color: black;
+}
+
+.text {
+    width:85px; 
+    height:85px;
+}
+img{
+    width:75px;
+    height:60px;
+}

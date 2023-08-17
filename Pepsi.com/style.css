@@ -1,0 +1,251 @@
+.navbar{
+    background-color:#0065c3;
+}
+.nav-item{
+    
+    margin-right: 2.75rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: .875rem;
+    cursor: pointer;
+    font-weight: 600;
+    
+}
+.nav-item > a {
+    color: white !important;
+}
+.pepsi-btn{
+    font-size: .875rem;
+    padding: 5px 20px;
+    border: 2px solid #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 1.8em;
+    font-weight: 600;
+    background: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.pepsi-btn:hover{
+    background-color: white;
+    color:#0065c3 ;
+}
+.fdrink-section {
+    background-color: blue;
+
+
+}
+.fdrink-section{
+    display: flex;
+   
+    flex-direction: row;
+    padding-top: 200px;
+    padding-left: 100px;
+    
+}
+.pepsi-btn1{
+    font-size: 1.375rem;
+    padding: 5px 20px;
+    border: 2px solid #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 1.8em;
+    font-weight: 600;
+    background: transparent;
+    color: #fff;
+    margin-left: 150px;
+}
+.paragraph{
+    color: white;
+    font-style: normal;
+    font-size: 15px;
+    padding-right: 70px;
+    font-style: italic;
+}
+.right-left{
+    padding-right: 20px !important;
+}
+.pepsi-logo{
+    padding-top: 80px;
+}
+.big-container{
+    display: flex;
+}
+.pepsi_zerosugar{
+    background-color: rgb(15, 14, 14);
+    display: flex;
+}
+.left-side{
+    display: flex;
+}
+.pepsi_zerosugar1{
+    background-color: rgb(15, 14, 14);
+    display: flex;
+    width: 550px;
+    padding-top: 180px;   
+}
+.bigcontainer2{
+    background-color: rgb(45, 45, 116);
+    display: flex;
+    
+}
+.nitrocan{
+    padding-left: 420px;
+    padding-top: 100px;
+    justify-content: space-around;
+    padding-right: 70px;
+}
+.logo{
+    margin-top: 250px;
+    
+}
+.font{
+    color: white;
+    padding-left: 55px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.pepsi-food{
+    background-color: #0065c3;
+    display: flex;
+}
+.img-food{
+    padding-top: 30px;
+    padding-left: 30px;
+    background-color: blue;
+}
+p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 90px;
+    border-radius: 1px;
+}
+.pic2{
+    padding-left: 50px;
+    padding-bottom: 40px;
+}
+
+.move1{
+    padding-left: 500px;
+    padding-bottom: 40px;
+    
+}
+.mango-container{
+    background-color:#033a6d;
+    display: flex;
+}
+
+.mango1{
+    margin-left: 115px;
+}
+.mango2{
+    margin-top: 180px;
+    margin-right: -390px;
+}
+.can-container{
+    background-color:#205d96;
+    display: flex;
+}
+.can1{
+    padding-top: 150px;
+    padding-left: 300px;
+    padding-bottom: 90px;
+    
+}
+.can2{
+    padding-top: 220px;
+    padding-left: 150px;
+}
+ .flavor-container{
+    background-color:#144c80;
+    padding-top: 140px;
+    display: flex;
+}
+.flavor2{
+    font-size: 40px;
+    padding-left: 340px;
+}
+.flavor3{
+    font-size: 15px;
+    padding-left: 340px;
+}
+.bottles{
+    padding-left: 200px;
+    padding-top: 75px;
+}
+.pepsi-btn3{
+    font-size: .875rem;
+    padding: 5px 20px;
+    border: 2px solid #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 1.8em;
+    font-weight: 600;
+    background: transparent;
+    color: #fff;
+    margin-left: 420px;
+    margin-bottom: 40px;
+} 
+.social-section{
+    background-color: white;
+    
+}
+h4{
+    text-align: center;
+    font-size: 50px !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    color: #144c80 !important;
+}
+.social1{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 100px;
+}
+.footer-section{
+    background-color: #0065c3;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom:100px ;
+    padding-top: 100px;
+}
+.copy-write{
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    list-style: none;
+    
+    
+}
+.copy-write1{
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    list-style: none;
+    
+}
+.copy-write2{
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    list-style: none;
+    
+}
+.copy-write3{
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    list-style: none;
+}
+.last-btn{
+
+     font-size: .875rem;
+    padding: 5px 20px;
+    border: 2px solid #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 1.8em;
+    font-weight: 600;
+    background: transparent;
+    color: #fff;
+    
+    
+}

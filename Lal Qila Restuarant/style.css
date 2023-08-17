@@ -1,0 +1,23 @@
+h1{
+    font-style: oblique;
+    color: chocolate;
+}
+image{
+    width: 120px;
+    height:150px;
+}
+h3{
+    background-color: brown;
+}
+
+
+h2{
+    background-color: aquamarine;
+}
+
+.list>li>b>a{
+    color: rgb(25, 199, 25);
+}
+.abc>li>i>a{
+    color: darkgreen;
+}
