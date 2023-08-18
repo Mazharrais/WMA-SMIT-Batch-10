@@ -1,4 +1,4 @@
-// ***************chap-6****************
+// // ***************chap-6****************
 
 var num = 10;
 document.write("<h1>" + "Result :" + "</h1>"  + "The value of a is :" + num + "<br>" + "<br>" + "<hr>")
@@ -22,11 +22,11 @@ var num = 11;
 var result1 = num --;
  document.write("The value of a-- is :11" + "<br>" + "Now the value of a-- is :" + num + "<br>" + "<br>")
 
-// 
-//  ****************Q.02***************
+// // 
+// //  ****************Q.02***************
     
 
-var a = 2;
+
 var b = 1;
 var num = --a
 document.write("a is :" + num + "<br>")
@@ -46,7 +46,7 @@ var num3 = b--;
 document.write("Now the Final result is :" + (num - num1 + num2 + num3)+ "<br>" + "<br>")
 
 
-// ****************Q.03****************
+// // ****************Q.03****************
 
 
 var userinput = prompt ("Enter your name")
@@ -55,7 +55,7 @@ document.write("Assalam Alikum");
 
 
 
-// ***********Q.05************
+// // ***********Q.05************
 
 var userinput= prompt ("Enter any number" , "5");
 var result =("table of 4" + "<br>" + "4 x 1 = 4" + "<br>"
@@ -71,22 +71,75 @@ var result =("table of 4" + "<br>" + "4 x 1 = 4" + "<br>"
 document.write(result)
   
 
-// ************Q.06************
-var subject = "English";
-var subject2 = "Mathematics"
-var subject3 = "Urdu"
-var num = 100;
-var num1 = 54;
-var num2 = 64;
-var num3 = 74;
-document.write("<h4>" + "Subject" + "  " +  "  " + "Total Marks" + "  " +  "  " + "Obtained Marks" + "  " +  "  " + "Percentage" + "</h4>" + "<br>"
-+ subject + "  " + " " + num + "  " + " " + num1 + "  " + " " + "54%" + "<br>" +
-subject2 + " " + " " + num + " " + " " + num2 + " " + " " + "64%" + "<br>" + 
-subject3 + " " + " " + num + " " + " " + num3 + " " + " " + "74%" + "<br>" +
-"<h5>" + "300" + "  " + "  " + "  " + "  " + "192" + "  " + "64%" + "  " + "</h5>")
+// // // ************Q.06************
 
 
-// ****************chap-9 t0 11****************
+var subject1 = prompt("Enter your first subject here");
+var subject2 = prompt("Enter your second subject here");
+var subject3 = prompt("Enter your third subject here");
+
+var marksSubject1 = prompt("Enter obrained marks " + " from " + subject1);
+var marksSubject2 = prompt("Enter obrained marks " + " from " + subject2);
+var marksSubject3 = prompt("Enter obrained marks " + " from " + subject3);
+
+var totalMarks = 300;
+var totalScoredMarks = (+marksSubject1) + (+marksSubject2) + (+marksSubject3)
+var percentage = ((totalScoredMarks / totalMarks) * 100 )
+
+
+if (percentage >= 80){
+    
+document.write( 
+    "<table>" + "<tr>" + "<th>" + "Marks Sheet" + "</th>" + "<th>" + "</th>" + "</tr>" +
+    "<tr>" + "<td>" + "Total Marks:" + " " + totalMarks + "</td>" + "</tr>" +
+    "<tr>" + "<td>" + "Marks Obtained:" + " " + totalScoredMarks + "</td>" + "</tr>" +
+    "<tr>" + "<td>" + "Percentage:" + " " + percentage + "%" + "</td>" + "</tr>" +
+    "<tr>" + "<td>" + "Grade:" + " " + "A-one" + "</td>" + "</tr>" +
+    "<tr>" + "<td>" + "Remarks:" + " " + "Excellent" + "</td>" + "</tr>" +
+    + "</table>"  
+)
+}
+
+else if (percentage >= 70){
+    
+    document.write( 
+        "<table>" + "<tr>" + "<th>" + "Marks Sheet" + "</th>" + "<th>" + "</th>" + "</tr>" +
+        "<tr>" + "<td>" + "Total Marks:" + " " + totalMarks + "</td>" + "</tr>" +
+        "<tr>" + "<td>" + "Marks Obtained:" + " " + totalScoredMarks + "</td>" + "</tr>" +
+        "<tr>" + "<td>" + "Percentage:" + " " + percentage +  "%" + "</td>" + "</tr>" +
+        "<tr>" + "<td>" + "Grade:" + " " + "A" + "</td>" + "</tr>" +
+        "<tr>" + "<td>" + "Remarks:" + " " + "Good" + "</td>" + "</tr>" +
+        + "</table>"  
+    )
+    }
+
+else if (percentage >= 60){
+    
+        document.write( 
+            "<table>" + "<tr>" + "<th>" + "Marks Sheet" + "</th>" + "<th>" + "</th>" + "</tr>" +
+            "<tr>" + "<td>" + "Total Marks:" + " " + totalMarks + "</td>" + "</tr>" +
+            "<tr>" + "<td>" + "Marks Obtained:" + " " + totalScoredMarks + "</td>" + "</tr>" +
+            "<tr>" + "<td>" + "Percentage:" + " " + percentage + "%" +  "</td>" + "</tr>" +
+            "<tr>" + "<td>" + "Grade:" + " " + "B" + "</td>" + "</tr>" +
+            "<tr>" + "<td>" + "Remarks:" + " " + "You need to improve" + "</td>" + "</tr>" +
+            + "</table>"  
+        )
+        }
+else if (percentage <= 60){
+    
+            document.write( 
+                "<table>" + "<tr>" + "<th>" + "Marks Sheet" + "</th>" + "<th>" + "</th>" + "</tr>" +
+                "<tr>" + "<td>" + "Total Marks:" + " " + totalMarks + "</td>" + "</tr>" +
+                "<tr>" + "<td>" + "Marks Obtained:" + " " + totalScoredMarks + "</td>" + "</tr>" +
+                "<tr>" + "<td>" + "Percentage:" + " " + percentage +  "%" + "</td>" + "</tr>" +
+                "<tr>" + "<td>" + "Grade:" + " " + "Fail" + "</td>" + "</tr>" +
+                "<tr>" + "<td>" + "Remarks:" + " " + "Sorry" + "</td>" + "</tr>" +
+                + "</table>"  
+            )
+            }
+
+
+// // ****************chap-9 t0 11****************
 
 var city = prompt ("Enter your city Name")
 if(city == "Karachi"){
@@ -94,7 +147,7 @@ if(city == "Karachi"){
 }
 
 
-// *****Q .02*****
+// // *****Q .02*****
 
 var gender = prompt ("Enter your gender")
 if (gender =="Male") {
@@ -106,7 +159,7 @@ if(gender == "Female") {
     
 
 
-// ******Q .03*******
+// // ******Q .03*******
 
 var trafficLights = prompt ("Enter any traffic lights")
 if (trafficLights == "red"){
@@ -128,7 +181,7 @@ if (fuelinCar == "If the current fuel is less than 0.25litres,"){
     alert("“Please refill the fuel in your car”")
 }
 
-// ****Q .05****
+// // ****Q .05****
 
 var a = 4;
 if (++a === 5){
@@ -144,31 +197,31 @@ if (b++ === 83){
     }
  
 
-var c = 12 ;
-var result = c++ ;
-console.log(result);
-console.log(c)
-if (c++ === 13){
-    alert("condition 1 is true");
-    }  
-
-var c = 12 ;
-var result = ++c ;
-if (result === 13){
-    alert("condition 2 is true");
-    }
+ var c = 12 ;
+ var result = c++ ;
+ console.log(result);
+ console.log(c)
+ if (c++ === 13){
+     alert("condition 1 is true");
+   }  
 
  var c = 12 ;
- var result1 = ++c   
-if (result1 < 14){
+ var result = ++c ;
+ if (result === 13){
+     alert("condition 2 is true");
+    }
+
+  var c = 12 ;
+  var result1 = ++c   
+ if (result1 < 14){
     alert("condition 3 is true");
-}
+ }
  
-var c = 13 ;
-var result2 = ++c ;
-if (result2 == 14){
-    alert("condition 4 is true")
-}
+ var c = 13 ;
+ var result2 = ++c ;
+ if (result2 == 14){
+   alert("condition 4 is true")
+ }
 
 var materialCost = 20000;
 var laborCost = 2000;
@@ -191,7 +244,7 @@ if ((cat < cat) === result){
    
 
 
-// *******Q .06********
+// // *******Q .06********
 
 var marksObtained = prompt ("Enter your three subjects marks");
 var marksObtained = 192;
@@ -205,23 +258,22 @@ document.write ("<h1>" + "Marks Sheet" + "</h1>" + "<br>" +
    "Remarks : You need to improve")
  }
 
-// ********Q .07*********
-
-
-
-
+// // ********Q .07*********
 
   var userInput = prompt ("Guess the secret number");
-  var  secretNumber = (1 ,2 ,3 ,4 ,5 ,6 ,7 ,8 ,9 ,10);
-  var  secretNumber1 = ( +1 , +2 , +3 , +4 , +5 , +6 , +7 , +8 , +9 , +10);
-  if (userInput = "secretNumber"){
+var num33 = 11;
+  if (userInput >= 1 && userInput <=10){
     document.write("<h2>" + "Bingo! Correct Answer" + "</h2>")
-  } else if (userInput = "secretNumber1") {
+  } 
+ else if (userInput === num33) {
     document.write("<h2>" + "Close Enough to the Correct Answer" + "</h2>")
+  }
+  else {
+    alert("Chal bhai kahen or ja kr hacking kr")
   }
     
 
-  // *******Q .08*******
+//   // *******Q .08*******
  
 
   var userInput = prompt ("Enter any Number");
@@ -233,7 +285,7 @@ document.write ("<h1>" + "Marks Sheet" + "</h1>" + "<br>" +
   }
 
 
-  // *******Q .09*******
+//   // *******Q .09*******
 
   var userInput = prompt ("Enter a given number to check either it is even or odd")
   var num = 2;
@@ -244,7 +296,7 @@ document.write ("<h1>" + "Marks Sheet" + "</h1>" + "<br>" +
   }
 
 
-  // ******Q .10*******
+//   // ******Q .10*******
 
  var userInput = prompt ("Enter your Weather Temperature here");
  var temp = 100 ;
@@ -262,7 +314,7 @@ document.write ("<h1>" + "Marks Sheet" + "</h1>" + "<br>" +
  }
   
 
-// ********Q .11********
+// // ********Q .11********
 
 
 var operator = prompt('Enter operator ( either +, -, * or / ): ');
@@ -297,7 +349,7 @@ switch(operator) {
  }
 
 
-  // ***************chap-12 to 13****************
+//   // ***************chap-12 to 13****************
 
   var operator = prompt("enter operator(either number or string)");
   var num1 = "A";
@@ -309,23 +361,24 @@ switch(operator) {
   document.write ("code :" + result)
   
 
-  // *******Q .02********
+//   // *******Q .02********
 
-  var userInput = prompt ("Write any integers number")
-  var num1 = 3;
-  var num2 = 7;
-  if(userInput < num1) {
-    alert(num1)
-  }
-  if (userInput > num1) {
-    alert(num2)
-  }
-  if(userInput == num2) {
-    alert(num2)
-  }
+var integer = prompt("Enter first intiger here")
+var integer2 =prompt ("Enter second intiger here")
+
+if(integer > integer2) {
+    document.write (integer + " " + "is larger than" + " " + integer2)
+}
+else if(integer2 > integer) {
+    document.write (integer2 + " " +"is larger than" + " " + integer)
+}
+else if(integer === integer2) {
+    document.write (integer + " " +  "are equal" + " " + integer2)
+}
+else {alert("Define a valid number")}
 
 
-  // ********Q .03********
+//   // ********Q .03********
 
 
   var userInput = prompt ("write any Positive , Negative and Zero number");
@@ -342,21 +395,17 @@ switch(operator) {
   }
   
 
-// ********Q .04*******
+// // ********Q .04*******
+
+var vowel = prompt ("Enter a single alphabat i will define is vowel or not");
+
+if (vowel === "a" || vowel === "e" || vowel === "i" || vowel === "o" || vowel === "u"){
+    document.write ("The" + " " + vowel + " " + "is a vowel word")
+}
+else {document.write("The" + " " + vowel + " " + "This is a consonant")}
 
 
-
-
-
-var userInput = prompt ("Enter any character or string");
-var vowel = ["a", "e", "i", "o", "u"];
-if (userInput === vowel) {
-  alert ("True") } else {
-    alert ("False")
-  }
-
-
-// *******Q .05********
+// // *******Q .05********
 
  var userInput = prompt ("Enter your  Password");
 var userInput2 = prompt ("Again enter your password")
@@ -367,7 +416,7 @@ var userInput2 = prompt ("Again enter your password")
  }
 
 
-// ******Q .06******
+// // ******Q .06******
 
 
 var userInput = prompt ("Enter your greeting Date or  Hours");
@@ -378,17 +427,23 @@ if (userInput < 18) {
 }
 
 
-// *******Q .07******
+// // *******Q .07******
 
-var userInput = prompt ("Enter your Good Time here");
-var time1 = 12.00 ;
-var time2 =  17.00
-if(userInput < time1 ) {
-  alert("Good Morning")
-}
-if (userInput === time2) {
-  alert("Good Afternoon")
-}
+var time = prompt("Enter your city current time here in hours")
+
+if (time >= 0000 && time < 1200 ){
+    Swal.fire("Good Morning")
+    }
+else if (time >= 1200 && time < 1700 ){
+    Swal.fire("Good Afternoon")
+  
+ }
+ else if (time >= 1700 && time < 2100 ){
+    Swal.fire("Good Evening")
+  } 
+ else if (time >= 2100 && time <= 2359 ){
+    Swal.fire("Good Night")
+    }
 
 
 
