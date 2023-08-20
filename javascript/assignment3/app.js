@@ -1,8 +1,5 @@
 // *******Q .1********
 
-
-
-
 var myArray = [""];
 console.log(myArray)
 
