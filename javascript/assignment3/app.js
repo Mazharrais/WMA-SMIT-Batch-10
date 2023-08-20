@@ -1,6 +1,6 @@
 // *******Q .1********
 
-var myArray = [""];
+var myArray = [" "];
 console.log(myArray)
 
 
