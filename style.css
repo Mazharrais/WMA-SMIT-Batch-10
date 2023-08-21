@@ -7,6 +7,7 @@
 }
 
 .navbar-text{
+    
     color:white;
     text-transform: capitalize;
     padding-right: 1400px;
@@ -226,4 +227,89 @@
     text-decoration: none !important;
     text-transform: none !important;
 }
+.main{
+    width: 1567px;
+    height: 40vh;
+      display: flex;
+     align-items: center;
+     justify-content: center;
+     padding-top: 70px;
+     padding-bottom: 70px;
+   background-color: rgb(34, 28, 28);
 
+
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: white;
+    margin: 20px;
+    text-align: center;
+    line-height: 100px;
+    font-family: sans-serif;
+    overflow: hidden;
+    font-size: 40px;
+    box-shadow: 5px 10px 20px rgba(150 150 150 .3);
+    transition: all .3s ease-out;
+}
+
+.icon:hover{
+  width: 400px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #fff;
+}
+.icon:hover i{
+    color: #fff;
+}
+.icon .fa-facebook-f{
+    color: #1A6ED8;
+    
+}
+.fb:hover{
+    background-color:#1A6ED8 ;
+}
+
+.icon .fa-whatsapp{
+    color:rgb(63, 157, 63);
+}
+.wt:hover{
+    background-color:rgb(63, 157, 63) ;
+}
+
+.icon .fa-twitter{
+    color: #73abe7;
+}
+.twt:hover{
+    background-color:#73abe7;
+}
+
+.icon .fa-instagram{
+    color: #ef2f2f;
+}
+.int:hover{
+    background-color:#ef2f2f;
+}
+
+.icon .fa-linkedin-in{
+    color: #73abe7;
+}
+.lnk:hover{
+    background-color:#73abe7 ;
+}
+
+.icon .fa-github{
+    color: rgb(34, 30, 30);
+}
+.git:hover{
+    background-color:rgb(34, 30, 30);
+}
+.icon .fa-envelope{
+  color: #971717;
+}
+.em:hover{
+    background-color: #971717;
+} */
