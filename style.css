@@ -269,10 +269,26 @@ h4 {
     padding-top: 70px;
     padding-bottom: 70px;
     background-color: rgb(34, 28, 28);
-
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-
+.main h3{
+    /* position: absolute;
+    left: 2px; */
+    color: brown;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+  
+}
+.footer-header-sec{
+    border-bottom: 2px solid goldenrod;
+    width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+}
 .icon {
     width: 100px;
     height: 73px;
@@ -400,7 +416,8 @@ h4 {
     width: 0px;
     position: relative;
 }
-
-/* .icon span {
-    margin-left: 10px;
-} */
+.icon-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
