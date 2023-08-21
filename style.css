@@ -1,93 +1,102 @@
-
-.nav-container{
-     background-color:rgb(32, 30, 30);
+.nav-container {
+    background-color: rgb(32, 30, 30);
     border-radius: 3px solid;
     width: 1567px;
-    height: 170px; 
+    height: 170px;
 }
 
-.navbar-text{
-    
-    color:white;
+.navbar-text {
+
+    color: white;
     text-transform: capitalize;
     padding-right: 1400px;
     padding-top: 10px;
     font-size: 15px;
     padding-left: 115px;
 }
-.logo{
+
+.logo {
     padding-left: 110px;
 }
-.icon{
+
+.icon {
     padding-left: 110px;
 }
-.nav-barleftside{
+
+.nav-barleftside {
     text-transform: none;
     font-size: 25px;
     position: absolute;
     top: 97px;
     left: 800px;
 }
-.one{
+
+.one {
     color: white !important;
     padding-right: 70px;
-    text-decoration:none ; 
-}
-.two{
-    color: white !important;
-    padding-right: 70px;
-    text-decoration:none ; 
-}
-.three{
-    color: white !important;
-    padding-right: 70px;
-    text-decoration:none ; 
+    text-decoration: none;
 }
 
-.intro{
- background-color: rgb(23, 70, 23);
+.two {
+    color: white !important;
+    padding-right: 70px;
+    text-decoration: none;
+}
+
+.three {
+    color: white !important;
+    padding-right: 70px;
+    text-decoration: none;
+}
+
+.intro {
+    background-color: rgb(23, 70, 23);
     color: rgb(204, 219, 115);
     position: relative;
     height: 290px;
     padding-top: 65px;
     padding-bottom: 75px;
 
-    
+
 }
-.sir{
+
+.sir {
     position: absolute;
     left: 300px;
     bottom: 75px;
 
 }
 
-.intro-left{
+.intro-left {
     padding-left: 120px;
     padding-top: 20px;
     font-size: 17px;
 }
-.intro-left1{
+
+.intro-left1 {
     position: absolute;
     padding-top: 90px;
     left: 120px;
     font-size: 16px;
     font-weight: bolder;
-    
+
 }
 
- h4{
+h4 {
     color: white;
     padding-left: 110px;
-} 
-.intro-right{
+}
+
+.intro-right {
     position: absolute;
     left: 980px;
     top: 60px;
 }
 
-#slider{
-    overflow: hidden ;
+#slider {
+    overflow: hidden;
 }
+
 #slider figure {
     position: relative;
     width: 500%;
@@ -95,23 +104,29 @@
     left: 0;
     animation: 18s slider infinite;
 }
+
 #slider figure img {
     float: left;
     width: 22%;
 }
-.pic1{
+
+.pic1 {
     width: 20% !important;
 }
-.pic2{
+
+.pic2 {
     width: 21% !important;
 }
-.pic3{
+
+.pic3 {
     width: 18.6% !important;
 }
-.pic4{
+
+.pic4 {
     width: 16.6% !important;
 }
-.pic5{
+
+.pic5 {
     width: 20% !important;
 }
 
@@ -119,90 +134,105 @@
     0% {
         left: 0;
     }
+
     20% {
         left: 0;
     }
+
     25% {
         left: -100%;
     }
+
     45% {
         left: -100%;
     }
+
     50% {
         left: -200%;
     }
+
     70% {
         left: -200%;
     }
+
     75% {
         left: -300%;
     }
+
     95% {
         left: -300%;
     }
+
     100% {
         left: -400%;
     }
 }
 
-.four-big1{
+.four-big1 {
     background-color: rgb(29, 24, 24);
-    color:brown;
+    color: brown;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 120px;
 }
+
 .forth-container {
     display: flex;
     padding-bottom: 30px;
     padding-top: 70px;
     padding-left: 200px;
 
-    
+
 }
-.lalqila{
+
+.lalqila {
     border: 2px solid rgb(201, 194, 194);
     margin: 12px;
     width: 350px;
     height: 400px;
-    color:goldenrod;
-    
+    color: goldenrod;
+
 }
-.hosptial{
-    border: 2px solid  rgb(201, 194, 194);
+
+.hosptial {
+    border: 2px solid rgb(201, 194, 194);
     margin: 12px;
     width: 350px;
     height: 400px;
     color: goldenrod;
 }
-.text2{
+
+.text2 {
     font-size: 15px;
 }
-.chess{
-    border: 2px solid  rgb(201, 194, 194);
+
+.chess {
+    border: 2px solid rgb(201, 194, 194);
     margin: 12px;
     width: 350px;
     height: 400px;
     color: goldenrod;
-}  
-.js-bigone{
+}
+
+.js-bigone {
     background-color: rgb(23, 70, 23);
-    color:rgb(244, 244, 244);
+    color: rgb(244, 244, 244);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 120px;
 }
-.java-script{
-   
+
+.java-script {
+
     display: flex;
     justify-content: space-around;
     padding-top: 100px;
-    
+
 }
 
-.j.s1{
+.j.s1 {
     border: 2px solid gray;
     margin: 12px;
     width: 300px;
@@ -213,7 +243,8 @@
     text-transform: none !important;
 
 }
-.j.s2{
+
+.j.s2 {
     border: 2px solid gray;
     margin: 12px;
     width: 300px;
@@ -222,94 +253,152 @@
     text-decoration: none !important;
     text-transform: none !important;
 }
-.writing{
+
+.writing {
     color: goldenrod;
     text-decoration: none !important;
     text-transform: none !important;
 }
-.main{
-    width: 1567px;
-    height: 40vh;
-      display: flex;
-     align-items: center;
-     justify-content: center;
-     padding-top: 70px;
-     padding-bottom: 70px;
-   background-color: rgb(34, 28, 28);
+
+.main {
+    width: 100%;
+    /* height: 40vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: rgb(34, 28, 28);
 
 
 }
-.icon{
+
+.icon {
     width: 100px;
-    height: 100px;
-    border-radius: 100px;
+    height: 104px;
+    border-radius: 50%;
     background-color: white;
-    margin: 20px;
+    margin: 2px;
     text-align: center;
-    line-height: 100px;
+    /* line-height: 100px; */
     font-family: sans-serif;
     overflow: hidden;
-    font-size: 40px;
+    font-size: 30px;
     box-shadow: 5px 10px 20px rgba(150 150 150 .3);
     transition: all .3s ease-out;
 }
 
-.icon:hover{
-  width: 400px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  color: #fff;
+.icon:hover {
+    width: 200px;
+    height: 70px;
+    border-radius: 100px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #fff;
+    padding: 15px;
 }
-.icon:hover i{
+
+.icon:hover i {
     color: #fff;
 }
-.icon .fa-facebook-f{
+
+.icon .fa-facebook-f {
     color: #1A6ED8;
-    
+    position: absolute;
+    left: 39px;
+    top: 23px;
+    font-size: 51px;
 }
-.fb:hover{
-    background-color:#1A6ED8 ;
+.icon span {
+    position: absolute;
+    left: 109px;
+    top: 32px;
+    font-size: 26px;
 }
 
-.icon .fa-whatsapp{
-    color:rgb(63, 157, 63);
-}
-.wt:hover{
-    background-color:rgb(63, 157, 63) ;
+.fb:hover {
+    background-color: #1A6ED8;
 }
 
-.icon .fa-twitter{
+.icon .fa-whatsapp {
+    color: rgb(63, 157, 63);
+    position: absolute;
+    left: 39px;
+    top: 23px;
+    font-size: 51px;
+}
+
+.wt:hover {
+    background-color: rgb(63, 157, 63);
+}
+
+.icon .fa-twitter {
     color: #73abe7;
-}
-.twt:hover{
-    background-color:#73abe7;
+    position: absolute;
+    left: 39px;
+    top: 23px;
+    font-size: 51px;
 }
 
-.icon .fa-instagram{
+.twt:hover {
+    background-color: #73abe7;
+}
+
+.icon .fa-instagram {
     color: #ef2f2f;
-}
-.int:hover{
-    background-color:#ef2f2f;
+    position: absolute;
+    left: 39px;
+    top: 23px;
+    font-size: 51px;
 }
 
-.icon .fa-linkedin-in{
+.int:hover {
+    background-color: #ef2f2f;
+}
+
+.icon .fa-linkedin-in {
     color: #73abe7;
-}
-.lnk:hover{
-    background-color:#73abe7 ;
+    position: absolute;
+    left: 39px;
+    top: 23px;
+    font-size: 51px;
 }
 
-.icon .fa-github{
+.lnk:hover {
+    background-color: #73abe7;
+}
+
+.icon .fa-github {
     color: rgb(34, 30, 30);
+    position: absolute;
+    left: 39px;
+    top: 23px;
+    font-size: 51px;
 }
-.git:hover{
-    background-color:rgb(34, 30, 30);
+
+.git:hover {
+    background-color: rgb(34, 30, 30);
 }
-.icon .fa-envelope{
-  color: #971717;
+
+.icon .fa-envelope {
+    color: #971717;
+    position: absolute;
+    left: 39px;
+    top: 23px;
+    font-size: 51px;
 }
-.em:hover{
+
+.em:hover {
     background-color: #971717;
+}
+
+.icon {
+    width: 0px;
+    position: relative;
+}
+
+/* .icon span {
+    margin-left: 10px;
 } */
