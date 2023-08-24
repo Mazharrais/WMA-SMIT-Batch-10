@@ -296,23 +296,23 @@ h4 {
 .icon {
     width: 100px;
     height: 73px;
-    border-radius: 50%;
+    border-radius: 52%;
     background-color: white;
-    background-size: 23px;
-    margin: 5px;
-    padding: 0px 35px;
+    background-size: 26px;
+    margin: 1px;
+    padding: 0px 30px;
     text-align: center;
     /* line-height: 100px; */
     font-family: sans-serif;
     overflow: hidden;
-    font-size: 30px;
+    font-size: 0px;
     box-shadow: 5px 10px 20px rgba(150 150 150 .3);
     transition: all .3s ease-out;
 }
 
 .icon:hover {
-    width: 200px;
-    height: 70px;
+    width: 156px;
+    height: 44px;
     border-radius: 100px;
     cursor: pointer;
     display: flex;
@@ -329,16 +329,16 @@ h4 {
 .icon .fa-facebook-f {
     color: #1A6ED8;
     position: absolute;
-    left: 20px;
-    top: 15px;
-    font-size: 40px;
+    left: 17px;
+    top: 18px;
+    font-size: 38px;
 }
 
 .icon span {
     position: absolute;
-    left: 109px;
-    top: 32px;
-    font-size: 26px;
+    left: 71px;
+    top: 29px;
+    font-size: 24px
 }
 
 .fb:hover {
@@ -348,9 +348,9 @@ h4 {
 .icon .fa-whatsapp {
     color: rgb(63, 157, 63);
     position: absolute;
-    left: 20px;
-    top: 15px;
-    font-size: 40px;
+    left: 15px;
+    top: 18px;
+    font-size: 38px;
 }
 
 .wt:hover {
@@ -360,9 +360,9 @@ h4 {
 .icon .fa-twitter {
     color: #73abe7;
     position: absolute;
-    left: 20px;
-    top: 15px;
-    font-size: 40px;
+    left: 13px;
+    top: 18px;
+    font-size: 38px;
 }
 
 .twt:hover {
@@ -372,9 +372,9 @@ h4 {
 .icon .fa-instagram {
     color: #ef2f2f;
     position: absolute;
-    left: 20px;
-    top: 15px;
-    font-size: 40px;
+    left: 15px;
+    top: 18px;
+    font-size: 38px;
 }
 
 .int:hover {
@@ -384,9 +384,9 @@ h4 {
 .icon .fa-linkedin-in {
     color: #73abe7;
     position: absolute;
-    left: 20px;
-    top: 15px;
-    font-size: 40px;
+    left: 15px;
+    top: 18px;
+    font-size: 38px;
 }
 
 .lnk:hover {
@@ -396,9 +396,9 @@ h4 {
 .icon .fa-github {
     color: rgb(34, 30, 30);
     position: absolute;
-    left: 20px;
-    top: 15px;
-    font-size: 40px;
+    left: 12px;
+    top: 16px;
+    font-size: 38px;
 }
 
 .git:hover {
@@ -408,9 +408,9 @@ h4 {
 .icon .fa-envelope {
     color: #971717;
     position: absolute;
-    left: 20px;
-    top: 15px;
-    font-size: 40px;
+    left: 12px;
+    top: 18px;
+    font-size: 38px;
 }
 
 .em:hover {
