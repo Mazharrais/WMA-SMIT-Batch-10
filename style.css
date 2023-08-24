@@ -536,7 +536,7 @@ h1{
 }
 .main{
     padding-top: 0px;
-    padding-bottom: 52px;
+    padding-bottom: 30px;
 }
 .footer-header-sec{
     margin-bottom: -2px;
@@ -544,6 +544,12 @@ h1{
 }
 .main h3{
     padding-top: 0px;
+}
+.icon-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
