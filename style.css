@@ -547,7 +547,7 @@ h1{
 }
 .icon-section{
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
