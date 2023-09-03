@@ -42,7 +42,3 @@
 
 // ********Q .05*********
 
-var fruits = ["Apple","Mango","Banana","Orange","Strawberry"];
-for(var i=0; i=fruits; i++) {
-    document.write( i + "<br>")
-}
