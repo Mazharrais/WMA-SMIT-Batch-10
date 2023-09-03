@@ -1,17 +1,48 @@
-var array = [ 
-    [ ],
-    [1, 2 ],
-    [3, 4],
-    [5, 6 ]
-];
-console.log(array)
+// ********Chap-17 t0 20**********
+//       ARRAY'S AND LOOP'S
+
+// *******Q .01********
+
+// var array = [ 
+//     [ ],
+//     [ ],
+//     [ ],
+//     [ ]
+// ];
+// console.log(array)
 
 
-let activities = [
-    ['Work', 9],
-    ['Eat', 1],
-    ['Commute', 2],
-    ['Play Game', 1],
-    ['Sleep', 7]
-];
-document.write(activities)
+// *******Q .02*******
+
+// var array = [
+//     ["0","1","2","3"],
+//     ["1", "0", "1", "2"],
+//     ["2", "1", "0", "1"]
+// ]
+// document.write((array[0]) + "<br>" + (array[1]) + "<br>" + (array[2]))
+
+
+// ********Q .03*********
+
+//  for(var i=1; i <= 10; i++) {
+//  document.write( i + "<br>")
+//  }
+
+
+//  *******Q .04*********
+
+
+// var number = prompt("Enter any number here");
+// var length = prompt("Enter length of number here");
+// for(var i=1; i <= length; i++) {
+// document.write(number + "x" + i + "=" + number*i + "<br>")
+// }
+
+
+
+// ********Q .05*********
+
+var fruits = ["Apple","Mango","Banana","Orange","Strawberry"];
+for(var i=0; i=fruits; i++) {
+    document.write( i + "<br>")
+}
