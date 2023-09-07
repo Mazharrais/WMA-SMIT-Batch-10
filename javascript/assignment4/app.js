@@ -199,3 +199,48 @@
 // var string = prompt ("Enter any word here");
 // var result = string.toUpperCase();
 // console.log(result)
+
+
+// *******Q .15********
+
+
+
+
+
+
+
+
+
+
+
+// ********Q .16*******
+
+// var university = "University Of Karachi";
+// var result = university.split("");
+// document.write(result);
+
+
+// ******Q .17*******
+
+
+// var str = "Pakistan";
+// var result = str.indexOf("n");
+// console.log(result)
+
+
+// *******Q .18********
+
+/* var text = "The quick brown fox jumps over the lazy dog";
+text = text.toLowerCase();
+var textLen = text.length;
+var searchFor = "the";
+var indexOfSearch = text.indexOf(searchFor);
+var counter = 0;
+
+for (var i = 0; i < textLen; i++) {
+if (text.indexOf(text.charAt(i)) === indexOfSearch) {
+counter++
+}
+}
+
+console.log(counter); */
