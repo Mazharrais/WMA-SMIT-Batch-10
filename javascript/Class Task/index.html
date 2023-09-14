@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLASS-TASK</title>
+    <link rel="stylesheet" href="stye.css">
+</head>
+<body>
+    
+    <h1 class="heading">WelCome To Calculate Me!</h1>
+    <div class="container">
+        <div class="row">
+        <input id="result"  class="input" type="text"/>    
+        </div>
+        <div class="row">
+           <button onclick="clearResult('')" id="checkclear" class="clear-btn">C</button> 
+        </div>
+        <div class="row">
+         <button onclick="getNumber('7')" class="button">7</button>   
+         <button onclick="getNumber('8')" class="button">8</button>
+         <button onclick="getNumber('9')" class="button">9</button>
+         <button onclick="getNumber('*')" class="button">*</button>
+        </div>
+        <div class="row">
+            <button onclick="getNumber('4')" class="button">4</button>   
+            <button onclick="getNumber('5')" class="button">5</button>
+            <button onclick="getNumber('6')" class="button">6</button>
+            <button onclick="getNumber('-')" class="button">-</button>
+           </div>
+           <div class="row">
+            <button onclick="getNumber('1')" class="button">1</button>   
+            <button onclick="getNumber('2')" class="button">2</button>
+            <button onclick="getNumber('3')" class="button">3</button>
+            <button onclick="getNumber('+')" class="button">+</button>
+           </div>
+           <div class="row">
+            <button onclick="getNumber('+/-')" class="button">+/-</button>      
+            <button onclick="getNumber('0')" class="button">0</button>
+            <button onclick="getNumber('.')"  class="button">.</button>
+            <button onclick="getResult()" class="button">=</button>
+           </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
