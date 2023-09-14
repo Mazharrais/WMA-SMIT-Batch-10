@@ -158,16 +158,65 @@
 
 //********Q .06********
 
+
+
+
+//*******Q .07*******
+
 // var d = new Date ();
 // var b = d.getHours();
-// if (b >= 11) {
+// if (b >= 12) {
 //     document.write("It's PM")
 // }else if (b <= 11) {
 //     document.write("It's AM")
 // }
 
 
-//*********Q .07********
-var month = 11; // Dec
-var d = new Date(2020, month + 1, 0);
-console.log(d.toString()); // last day in Dec
+//*********Q .08********
+
+
+// var month = 11; // Dec
+// var d = new Date(2020, month +1, 0);
+// console.log("Later Date Was :" + d.toString()); // last day in Dec
+
+
+
+//*********Q .09********
+
+// var now = new Date ();
+// var target = new Date ("June 18, 2015");
+// var diff = now - target;
+
+
+// var milliSecondInMinute = 60 * 1000;
+// var milliSecondInAnHour = 60 * milliSecondInMinute;
+// var milliSecondInADay = 24 * milliSecondInAnHour;
+
+
+// var days = Math.floor(diff / milliSecondInADay);
+
+// document.write(days + " Days have been Passed since 1st Ramadan 2015");
+
+
+
+//*********Q .10********
+
+// var beginningYear = new Date("Jan 1, 2015");
+// var referenceDate = new Date ("Dec 05, 2015");
+// var diff = referenceDate - beginningYear
+
+// var second =((diff / 1000) / 60)  ;
+
+// document.write("on reference Date " + referenceDate + "<br>" + second + " seconds had been passed since biginning of 2015")
+
+
+
+//********Q .11********
+
+var currentDate = new Date();
+// document.write(currentDate) 
+
+var currentDate = new Date();
+var currentHours = currentDate.getHours();
+var result = currentDate.setHours(currentHours-1);
+document.write(currentDate + "<br>" + "1 hour ago it was " + result);
