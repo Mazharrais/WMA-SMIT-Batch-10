@@ -4,11 +4,17 @@ function getNumber(num) {
     results.value += num;
 }
 
-function clearResult() {
-    var getResult =document.getElementById("checkclear");
-    getResult.value = " ";
+//set  kar lo isko me namaz ke liye jarha ho yahan 12:55 per jammat ha 
 
+function clearInput() {
+    var getResult=document.getElementById("result");
+    getResult.value= "";
 }
+// function clearResult() {
+//     var getResult =document.getElementById("checkclear");
+//     getResult.value=reset();
+
+// }
 
 function getResult() {
     var result =document.getElementById("result");
