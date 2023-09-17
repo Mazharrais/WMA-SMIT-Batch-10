@@ -111,31 +111,33 @@
 
 // //***********Q. 08***********
 
-function calHyp() {
+// function calHyp() {
 
-    var askInput = prompt("Enter any number here");
-    var userInput = prompt("Enter any number here");
+//     var askInput = prompt("Enter any number here");
+//     var userInput = prompt("Enter any number here");
 
-function calSq() {
-    var baseSq = Math.pow(askInput,2);
-    var perpSq = Math.pow(userInput,2);
-    var result = (baseSq + perpSq) ;
-     return result;
+// function calSq() {
+//     var baseSq = Math.pow(askInput,2);
+//     var perpSq = Math.pow(userInput,2);
+//     var result = (baseSq + perpSq) ;
+//      return result;
 
-}
+// }
 
 
- document.write(calSq());
+//  document.write(calSq());
 
-var hypSq = (calSq());
-document.write(Math.sqrt(calSq()));
+// var hypSq = (calSq());
+// document.write(Math.sqrt(calSq()));
+
+
+
+
+// }
 
 // var calHyp = Math.sqrt(hypSq);
 
 //return calHyp ;
-
-
-}
 //  document.write(calHyp());
  
 
@@ -183,19 +185,80 @@ document.write(Math.sqrt(calSq()));
 
 //***********Q.11**********
 
-// function uppercase(str)
-// {
-//   var array1 = str.split(' ');
-//   var newarray1 = [];
-    
-//   for(var x = 0; x < array1.length; x++){
-//       newarray1.push(array1[x].charAt(0).toUpperCase()+array1[x].slice(1));
-//   }
-//   return newarray1.join(' ');
-// }
-// console.log(uppercase("the quick brown fox"));
+// function upperCase(str) {
+//     var array = str.split(' ');
+//     // console.log(array)
+//     var newArray = [];
+//     for(var i = 0; i < array.length; i++) {
+//         newArray.push(array[i].charAt(0).toUpperCase()+array[i].slice(1));
+//     }
+//          return newArray.join(' ');
+//     }
+//     document.write(upperCase("the quick brown fox"));
 
 
 
 //***********Q.12***********
 
+
+// function parameter(str) {
+//   var array = str.split(' ');
+//   var logestWord = 0;
+//  for (var i=0; i < array.length; i++) {
+//     if(array[i].length > logestWord){
+//     logestWord = array[i].length;
+//       }
+//  }
+//  return logestWord ;
+ 
+// }
+// document.write(parameter("Web Development Tutorial"))
+
+
+// function findLongestWord(str) {
+//     var strSplit = str.split(' ');
+//     var longestWord = 0;
+//     for(var i = 0; i < strSplit.length; i++){
+//       if(strSplit[i].length > longestWord){
+//       longestWord = strSplit[i].length;
+//        }
+//     }
+//     return longestWord;
+//   }
+//   document.write(findLongestWord("The quick brown fox jumped over the lazy dog"));
+
+
+
+
+//**************Q .13************
+
+
+// function char_count(str, letter) 
+// {
+//  var letter_Count = 0;
+//  for (var i= 0; i < str.length; i++) 
+//  {
+//     if (str.charAt(i) == letter) 
+//       {
+//       letter_Count += 1;
+//       }
+//   }
+//   return letter_Count;
+// }
+
+// console.log(char_count('JSResourceS.com', 'o'));
+
+
+//************Q. 14*************
+
+// function calCircumference(a,b,c=2) {
+//   return a * b * c;
+// }
+// document.write(calCircumference(2,3.14))
+
+// function calArea(a,b) {
+//  var c = Math.pow(b,2);
+//  return a * c ;
+
+// }
+// document.write(calArea(3.14,2));
