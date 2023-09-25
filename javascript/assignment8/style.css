@@ -1,11 +1,69 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
-.container{
+
+.main{
     background-image: url(images/background\ poic2.gif);
-    background-repeat: no-repeat;
-     background-size: 100vw 100vh; 
     width: 100%;
     height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.daino{
+    width: 350px;
+    height: 250px;
+    object-fit: contain;
+    position: absolute;
+    bottom: 36px;
+}
+.dragon{
+    width: 350px;
+    height: 250px;
+    object-fit: contain;
+    position: absolute;
+    bottom: 70px;
+    left: 1500px;
+}
+.gameover{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.scorecount{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bolder;
+    font-size: 30px;
+}
+/* .daino{
+    animation: daino o.6s linear;
+}
+@keyframes daino{
+       0%{
+      bottom: 0;
+       }
+       50%{
+      bottom: 422px;
+       }
+       100%{
+      bottom: 0;
+       }
+} */
+.dragon{
+    animation:dragon 3s linear infinite ;
+}
+
+@keyframes dragon{
+    0%{
+      left: 1200px;
+    }
+    100%{
+    left: -5vh;
+    }
 }
