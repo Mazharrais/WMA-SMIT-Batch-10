@@ -224,10 +224,25 @@ h4 {
     padding-bottom: 120px;
 }
 
-.java-script {
+.java-script{
 
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding-top: 100px;
+    justify-content: space-evenly;
+
+}
+.java-script1{
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    justify-content: space-evenly;
+
+}
+.java-script2{
+
+    display: flex;
     justify-content: space-around;
     padding-top: 100px;
     justify-content: space-evenly;
