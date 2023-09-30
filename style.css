@@ -227,7 +227,7 @@ h4 {
 .java-script {
 
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row-reverse;
     justify-content: space-around;
     padding-top: 100px;
     justify-content: space-evenly;
