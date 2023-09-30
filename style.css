@@ -529,7 +529,7 @@ h1{
 }
 .java-script{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     padding-top: 0px;
