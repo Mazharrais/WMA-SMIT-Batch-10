@@ -1,0 +1,28 @@
+.navbar{
+    background-color: #23036a;
+    height: 80px;
+}
+.navbar-brand{
+    color: #fff !important;
+    font-weight: bold;
+}
+.btn-primary{
+    background-color:#23036a ;
+    color: #fff !important;
+}
+.btn-primary:hover{
+    background-color:#23036a ;
+    color: #fff;
+}
+.btn-primary:focus{
+    background-color:#23036a;
+    color: #fff;
+}
+
+.form-select{
+    width: 300px !important;
+}
+.card-img-top{
+   
+    object-fit: cover;
+}
