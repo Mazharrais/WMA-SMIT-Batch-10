@@ -310,10 +310,10 @@ submit.addEventListener('click', () =>{
     }else{
         showScore.innerHTML = `
       <h3> You Scored ${score}/${questionsList.length}  </h3>
-      <button class="btn" onclick="location.reload()">Play Again </button>
+      <button class="btn" onclick="location.reload()">Try Again </button>
       
       `;
-      showScore.classList.remove('scoreArea')
+      showScore.classList.remove('scoreArea');
     }
 
 });
