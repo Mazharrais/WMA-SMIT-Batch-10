@@ -29,282 +29,228 @@ var questionsList  = [
     
     },
 
-    // {
-    //     question : "Which branch of science plays an important role in engineering...?",
-    //     option1 : "Biology",
-    //     option2 : "Biology",
-    //     option3 : "Physics",
-    //     option4 : "Chemistry",
-    //     answer : 'Physics'
+    {
+        question : "Which branch of science plays an important role in engineering...?",
+        option1 : "Biology",
+        option2 : "Biology",
+        option3 : "Physics",
+        option4 : "Chemistry",
+        answer : 'Physics'
     
-    // },
+    },
 
-    // {
-    //     question : "The Branch of Physics deals with highly energetic ions is called...?",
-    //     option1 : "Elementary articles",
-    //     option2 : "Article physics",
-    //     option3 : "Ionic physics",
-    //     option4 : "Plasma physics",
-    //     answer : 'Plasma physics'
+    {
+        question : "The Branch of Physics deals with highly energetic ions is called...?",
+        option1 : "Elementary articles",
+        option2 : "Article physics",
+        option3 : "Ionic physics",
+        option4 : "Plasma physics",
+        answer : 'Plasma physics'
     
-    // },
+    },
 
-    // {
-    //     question : "The physics of moving charge particles is known as...?",
-    //     option1 : "Plasma physics",
-    //     option2 : "Electro-static’s",
-    //     option3 : "Electro-magnetic",
-    //     option4 : "Electro-dynamics",
-    //     answer : 'Electro-dynamics'
+    {
+        question : "The physics of moving charge particles is known as...?",
+        option1 : "Plasma physics",
+        option2 : "Electro-static’s",
+        option3 : "Electro-magnetic",
+        option4 : "Electro-dynamics",
+        answer : 'Electro-dynamics'
     
-    // },
+    },
 
-    // {
-    //     question : "The first book of Physics was written by...?",
-    //     option1 : "Kelvin",
-    //     option2 : "Newton",
-    //     option3 : "Aristotle",
-    //     option4 : "Faraday",
-    //     answer : 'Aristotle'
+    {
+        question : "The first book of Physics was written by...?",
+        option1 : "Kelvin",
+        option2 : "Newton",
+        option3 : "Aristotle",
+        option4 : "Faraday",
+        answer : 'Aristotle'
     
-    // },
+    },
 
-    // {
-    //     question : "The co efficient of linear expansion is equal to...?",
-    //     option1 : "ΔL = αLΔT",
-    //     option2 : "ΔL/LΔT",
-    //     option3 : "LΔT/ΔL",
-    //     option4 : "αLΔT-ΔL",
-    //     answer : 'ΔL = αLΔT'
+    {
+        question : "The co efficient of linear expansion is equal to...?",
+        option1 : "ΔL = αLΔT",
+        option2 : "ΔL/LΔT",
+        option3 : "LΔT/ΔL",
+        option4 : "αLΔT-ΔL",
+        answer : 'ΔL = αLΔT'
     
-    // },
+    },
 
-    // {
-    //     question : "linear expansion occurs in...?",
-    //     option1 : "solid",
-    //     option2 : "liquid",
-    //     option3 : "both",
-    //     option4 : "none",
-    //     answer : 'solid'
+    {
+        question : "linear expansion occurs in...?",
+        option1 : "solid",
+        option2 : "liquid",
+        option3 : "both",
+        option4 : "none",
+        answer : 'solid'
     
-    // },
+    },
 
-    // {
-    //     question : "When body is in motion, ____________ always changes...?",
-    //     option1 : "its velocity",
-    //     option2 : "its acceleration",
-    //     option3 : "its position vector",
-    //     option4 : "its momentum",
-    //     answer : 'its position vector'
+    {
+        question : "When body is in motion, ____________ always changes...?",
+        option1 : "its velocity",
+        option2 : "its acceleration",
+        option3 : "its position vector",
+        option4 : "its momentum",
+        answer : 'its position vector'
     
-    // },
+    },
 
-    // {
-    //     question : "A man is in a car is moving with velocity of 36km/hr. His speed with repect to the car is...?",
-    //     option1 : "10m/s",
-    //     option2 : "36m/s",
-    //     option3 : "zero",
-    //     option4 : "infinite",
-    //     answer : 'zero'
+    {
+        question : "A man is in a car is moving with velocity of 36km/hr. His speed with repect to the car is...?",
+        option1 : "10m/s",
+        option2 : "36m/s",
+        option3 : "zero",
+        option4 : "infinite",
+        answer : 'zero'
     
-    // },
+    },
 
-    // {
-    //     question : "Area under velocity time graph represent...?",
-    //     option1 : "force",
-    //     option2 : "displacement",
-    //     option3 : "distance",
-    //     option4 : "acceleration",
-    //     answer : 'displacement'
+    {
+        question : "Area under velocity time graph represent...?",
+        option1 : "force",
+        option2 : "displacement",
+        option3 : "distance",
+        option4 : "acceleration",
+        answer : 'displacement'
     
-    // },
+    },
 
-    // {
-    //     question : "1st law of motion gives the definition of...?",
-    //     option1 : "rest",
-    //     option2 : "motion",
-    //     option3 : "velocity",
-    //     option4 : "force",
-    //     answer : 'force'
+    {
+        question : "1st law of motion gives the definition of...?",
+        option1 : "rest",
+        option2 : "motion",
+        option3 : "velocity",
+        option4 : "force",
+        answer : 'force'
     
-    // },
+    },
 
-    // {
-    //     question : "The dimension of force is...?",
-    //     option1 : "MLT-2",
-    //     option2 : "ML2T-2",
-    //     option3 : "ML2T2",
-    //     option4 : "ML-2T-2",
-    //     answer : 'MLT-2'
+    {
+        question : "The dimension of force is...?",
+        option1 : "MLT-2",
+        option2 : "ML2T-2",
+        option3 : "ML2T2",
+        option4 : "ML-2T-2",
+        answer : 'MLT-2'
     
-    // },
+    },
 
-    // {
-    //     question : "Taking off rocket can be explained by...?",
-    //     option1 : "1st law of motion",
-    //     option2 : "2nd law of motion",
-    //     option3 : "Law of conservation of momentum",
-    //     option4 : "law of conservation of energy",
-    //     answer : 'Law of conservation of momentum'
+    {
+        question : "Taking off rocket can be explained by...?",
+        option1 : "1st law of motion",
+        option2 : "2nd law of motion",
+        option3 : "Law of conservation of momentum",
+        option4 : "law of conservation of energy",
+        answer : 'Law of conservation of momentum'
     
-    // },
+    },
 
-    // {
-    //     question : "Distance covered by a freely falling body in 2 seconds will be...?",
-    //     option1 : "4.9 m",
-    //     option2 : "19.6 m",
-    //     option3 : "39.2 m",
-    //     option4 : "44.2 m",
-    //     answer : '19.6 m'
+    {
+        question : "Distance covered by a freely falling body in 2 seconds will be...?",
+        option1 : "4.9 m",
+        option2 : "19.6 m",
+        option3 : "39.2 m",
+        option4 : "44.2 m",
+        answer : '19.6 m'
     
-    // },
+    },
 
-    // {
-    //     question : "Time rate of change of momentum is equal to_...?",
-    //     option1 : "force",
-    //     option2 : "impulse",
-    //     option3 : "velocity",
-    //     option4 : "both A and C",
-    //     answer : 'force'
+    {
+        question : "Time rate of change of momentum is equal to_...?",
+        option1 : "force",
+        option2 : "impulse",
+        option3 : "velocity",
+        option4 : "both A and C",
+        answer : 'force'
     
-    // },
+    },
 
-    // {
-    //     question : "A body is moving with uniform velocity. Its...?",
-    //     option1 : "speed changes",
-    //     option2 : "acceleration changes",
-    //     option3 : "direction of motion changes",
-    //     option4 : "displacement from origin changes",
-    //     answer : 'displacement from origin changes'
+    {
+        question : "A body is moving with uniform velocity. Its...?",
+        option1 : "speed changes",
+        option2 : "acceleration changes",
+        option3 : "direction of motion changes",
+        option4 : "displacement from origin changes",
+        answer : 'displacement from origin changes'
     
-    // },
+    },
 
-    // {
-    //     question : "A body is moving with uniform velocity. Its...?",
-    //     option1 : "speed changes",
-    //     option2 : "acceleration changes",
-    //     option3 : "direction of motion changes",
-    //     option4 : "displacement from origin changes",
-    //     answer : 'displacement from origin changes'
+    {
+        question : "A body is moving with uniform velocity. Its...?",
+        option1 : "speed changes",
+        option2 : "acceleration changes",
+        option3 : "direction of motion changes",
+        option4 : "displacement from origin changes",
+        answer : 'displacement from origin changes'
     
-    // },
+    },
 
-    // {
-    //     question : "2nd law of motion gives the definition of...?",
-    //     option1 : "force",
-    //     option2 : "acceleration",
-    //     option3 : "velocity",
-    //     option4 : "both force and acceleration",
-    //     answer : 'acceleration'
+    {
+        question : "2nd law of motion gives the definition of...?",
+        option1 : "force",
+        option2 : "acceleration",
+        option3 : "velocity",
+        option4 : "both force and acceleration",
+        answer : 'acceleration'
     
-    // },
+    },
 
-    // {
-    //     question : "Momentum depends upon_...?",
-    //     option1 : "force acts on the body",
-    //     option2 : "mass of the body",
-    //     option3 : "velocity of the body",
-    //     option4 : "both mass and velocity of the body",
-    //     answer : 'both mass and velocity of the body'
+    {
+        question : "Momentum depends upon_...?",
+        option1 : "force acts on the body",
+        option2 : "mass of the body",
+        option3 : "velocity of the body",
+        option4 : "both mass and velocity of the body",
+        answer : 'both mass and velocity of the body'
     
-    // },
+    },
 
-    // {
-    //     question : "During long jump, athlete runs before taking the jump. By doing so he_...?",
-    //     option1 : "provide him a larger inertia",
-    //     option2 : "decreases his inertia",
-    //     option3 : "increases his momentum",
-    //     option4 : "decreases his momentum",
-    //     answer : 'increases his momentum'
+    {
+        question : "During long jump, athlete runs before taking the jump. By doing so he_...?",
+        option1 : "provide him a larger inertia",
+        option2 : "decreases his inertia",
+        option3 : "increases his momentum",
+        option4 : "decreases his momentum",
+        answer : 'increases his momentum'
     
-    // },
+    },
 
-    // {
-    //     question : "Which of the following is not an example of projectile motion _...?",
-    //     option1 : "a gas filled ballon",
-    //     option2 : "bullet fired from gun",
-    //     option3 : "a football kicked",
-    //     option4 : "a base ball shot",
-    //     answer :  'a gas filled ballon'
+    {
+        question : "Which of the following is not an example of projectile motion _...?",
+        option1 : "a gas filled ballon",
+        option2 : "bullet fired from gun",
+        option3 : "a football kicked",
+        option4 : "a base ball shot",
+        answer :  'a gas filled ballon'
     
-    // },
+    },
 
-    // {
-    //     question : "The distance between any two consecutive crests or troughs is called..?",
-    //     option1 : "frequency",
-    //     option2 : "period",
-    //     option3 : "Wave length",
-    //     option4 : "phase difference",
-    //     answer : 'Wave length'
+    {
+        question : "The distance between any two consecutive crests or troughs is called..?",
+        option1 : "frequency",
+        option2 : "period",
+        option3 : "Wave length",
+        option4 : "phase difference",
+        answer : 'Wave length'
     
-    // },
+    },
 
-    // {
-    //     question : "In vibrating cord the points where the amplitude is maximum, are called...?",
-    //     option1 : "antinodes",
-    //     option2 : "nodes",
-    //     option3 : "troughs",
-    //     option4 : "crests",
-    //     answer : 'antinodes'
+    {
+        question : "In vibrating cord the points where the amplitude is maximum, are called...?",
+        option1 : "antinodes",
+        option2 : "nodes",
+        option3 : "troughs",
+        option4 : "crests",
+        answer : 'antinodes'
     
-    // },
+    },
 ]
 
 
-// var index = 0;
-// var score = 0;
-// function renderQuestion(){
-//     var question = document.getElementById("question");
-//     var options = document.getElementsByName("option")
-
-//     for (var i=0; i<options.length; i++){
-//         if(options[i].checked){
-            
-//             if(options[i].value === questionsList[index -1].answer){
-//                 console.log(options[i].value,questionsList[index -1].answer);
-//                 score++
-//             }
-            
-//         }
-//     }
-//     if(! questionsList[index]){
-//         console.log("Result" + score);
-//         return;
-//     }
- 
-
-//     function showScore(){
-//         resetState();
-//         question.innerHTML = `Your Score ${score} Out of ${questionsList.length}!`;
-   
-//      }
-
-//     if(questionsList[index]){
-
-    
-//     question.innerHTML = 
-//     ` <p>${questionsList[index].question}</p>
-//     <div>
-//         <label><input type="radio" name="option" value="${questionsList[index].option1}">${questionsList[index].option1}</label>
-//         </div>
-//         <div>
-//         <label><input type="radio" name="option" value="${questionsList[index].option2}">${questionsList[index].option2}</label>
-//         </div>
-//         <div>
-//         <label><input type="radio" name="option" value="${questionsList[index].option3}">${questionsList[index].option3}</label>
-//         </div>
-//         <div>
-//         <label><input type="radio" name="option" value="${questionsList[index].option4}">${questionsList[index].option4}</label>
-//     </div>
-//     `
-
-//     index++
-   
-  
-// }
-//  }
-
-// renderQuestion()
     
 
 var question = document.querySelector('.question');
@@ -358,7 +304,7 @@ submit.addEventListener('click', () =>{
 
     deselectAll();
 
-    
+
     if(index < questionsList.length){
         loadQuestion();
     }else{
