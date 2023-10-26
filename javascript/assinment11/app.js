@@ -273,6 +273,11 @@ function loadQuestion(){
     option3.innerText = allQuestion.option3;
     option4.innerText = allQuestion.option4;
 
+
+    
+
+
+
 }
 loadQuestion()
 
@@ -296,10 +301,11 @@ function deselectAll(){
 submit.addEventListener('click', () =>{
     var checkedAnswer = getCheckAnswer();
    console.log(checkedAnswer);
-
    if(checkedAnswer === questionsList[index].answer){
     score++;
+    console.log("mazhar",score);
    };
+   
     index++;
 
     deselectAll();
